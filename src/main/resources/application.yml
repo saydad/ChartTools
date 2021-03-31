@@ -1,0 +1,28 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: chart-tools
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/chart?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: cc651314
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 30
+    timeout: 200
+
+mybatis-plus:
+  global-config:
+    banner: false
+#  configuration:
+#    cache-enabled: false
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

@@ -1,0 +1,14 @@
+body {
+    font-size: 14px;
+    font-family: 'RakutenSans','Roboto',sans-serif;
+    color: #4e4e4e;
+}
+
+.chart-header {
+    height: 40px;
+    width: 100%;
+}
+
+.chart-header img {
+    height: 40px;
+}
