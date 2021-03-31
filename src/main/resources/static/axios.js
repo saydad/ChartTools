@@ -1,6 +1,6 @@
 //axios配置
-axios.defaults.baseURL = "http://localhost:9999/api"
-//axios.defaults.baseURL = "http://localhost:9988/api"
+//axios.defaults.baseURL = "http://localhost:9999/api"
+axios.defaults.baseURL = "http://localhost:9988/api"
 
 //axios请求拦截器,增加header
 axios.interceptors.request.use(config => {
